@@ -1,4 +1,4 @@
-## Desafio 1
+# Desafio 1
 ### Descrição
 
 Você está desenvolvendo um programa simples em Java para simular operações bancárias básicas. A aplicação deve permitir ao usuário realizar depósitos, saques e consultar o saldo em uma conta bancária virtual.
@@ -25,20 +25,20 @@ Se o usuário escolher:
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-# Entrada	         Saída
+#### Entrada	         Saída
 1
 50
 2            Saldo atual: 50.0
 100          Saldo insuficiente.
 0	           Programa encerrado.
 
-# Entrada          Saída
+#### Entrada          Saída
 3 
 1             Saldo atual: 0.0
 550           Saldo atual: 550.0
 0	            Programa encerrado.
 
-# Entrada          Saída 
+#### Entrada          Saída 
 1             
 1000
 2           Saldo atual: 1000.0
@@ -47,7 +47,7 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 
 
-## Desafio 2
+# Desafio 2
 
 ### Descrição
 Você está desenvolvendo um programa simples em Java para verificar se um número de conta bancária é válido. O número da conta deve ter exatamente 8 dígitos.
@@ -63,13 +63,13 @@ Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção 
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-# Entrada              Saída
+#### Entrada              Saída
 01020304	   Numero de conta valido.
 1234568	     Erro: Numero de conta invalido. Digite exatamente 8 digitos.
 3231	       Erro: Numero de conta invalido. Digite exatamente 8 digitos.
 
 
-## Desafio 3
+# Desafio 3
 
 ### Descrição
 Você está desenvolvendo um programa simples em Java para verificar se um cliente é elegível para criar uma conta bancária. A condição é que o cliente deve ter pelo menos 18 anos de idade.
@@ -85,13 +85,13 @@ Se a idade for menor que 18, o programa informará que o cliente não é elegív
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-### Entrada	                        Saída
+#### Entrada	                        Saída
 17	          Voce nao esta elegivel para criar uma conta bancaria.
 26	          Voce esta elegivel para criar uma conta bancaria.
 18	          Voce esta elegivel para criar uma conta bancaria.
 
 
-## Desafio 4
+# Desafio 4
 
 ### Descrição
 Você está desenvolvendo um programa simples em Java para verificar se uma conta bancária ultrapassou o limite do cheque especial. A aplicação solicitará ao cliente que informe o saldo atual da conta bancária. Em seguida, o programa pedirá o valor de um saque que o cliente deseja realizar.
@@ -112,7 +112,7 @@ Caso contrário, o programa informará que a transação foi realizada com suces
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-### Entrada                	   Saída
+#### Entrada                	   Saída
 1000
 100	           Transação realizada com sucesso.
 
@@ -123,7 +123,7 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 1500	         Transação não realizada. Limite do cheque especial excedido.
 
 
-## Desafio 5
+# Desafio 5
 
 ### Descrição
 Você está desenvolvendo um programa simples em Java para auxiliar um cliente a realizar saques de uma conta bancária. O cliente pode fazer saques até atingir um limite diário predefinido.
@@ -141,12 +141,12 @@ Se não ultrapassar, o programa informará que o saque foi realizado com sucesso
 ### Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
 
-### Entrada	               Saída
+#### Entrada	               Saída
 1500            
 430             Saque realizado. Limite restante: 1070.0
 0	              Transacoes encerradas.
 
-### Entrada	               Saída
+#### Entrada	               Saída
 500
 1500	
 80    Limite diario de saque atingido. Transacoes encerradas.
